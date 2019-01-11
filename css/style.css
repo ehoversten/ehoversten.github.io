@@ -2,6 +2,10 @@
   margin: 0px auto;
 }
 
+#whoami {
+    background-color: rgb(41, 138, 145);
+}
+
 #photo .img {
     /* border: 3px solid !important; */
 }
@@ -15,18 +19,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  min-height: 300px;
+  min-height: 500px;
   margin-bottom: 0px;
 }
 
 #engineering {
-  /* background-image: url(/img/chris-ried-512801-unsplash.jpg); */
   background-image: url(/img/victor-aznabaev-680684-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  min-height: 300px;
+  min-height: 500px;
   margin-bottom: 0px;
 }
