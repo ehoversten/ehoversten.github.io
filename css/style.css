@@ -11,7 +11,7 @@
 }
 
 #development {
-  background-image: url(/img/victor-aznabaev-680684-unsplash.jpg);
+  background-image: url(/img/chris-ried-512801-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +21,8 @@
 }
 
 #engineering {
-  background-image: url(/img/chris-ried-512801-unsplash.jpg);
+  /* background-image: url(/img/chris-ried-512801-unsplash.jpg); */
+  background-image: url(/img/victor-aznabaev-680684-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
