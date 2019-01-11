@@ -2,10 +2,30 @@
   margin: 0px auto;
 }
 
-#face .img {
+#photo .img {
     /* border: 3px solid !important; */
 }
 
 #about {
     background-color: rgb(106, 105, 105);
+}
+
+#development {
+  background-image: url(/img/victor-aznabaev-680684-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 300px;
+  margin-bottom: 0px;
+}
+
+#engineering {
+  background-image: url(/img/chris-ried-512801-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 300px;
+  margin-bottom: 0px;
 }
