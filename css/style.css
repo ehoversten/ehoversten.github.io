@@ -3,19 +3,44 @@
 }
 
 #whoami {
-    background-color: rgb(41, 138, 145);
+    /* background-color: rgb(41, 138, 145); */
+    background: #01abc5;
 }
 
 #photo .img {
-    /* border: 3px solid !important; */
+    border: 2px solid  #01abc5 !important;
 }
 
 #about {
     background-color: rgb(106, 105, 105);
 }
 
+#new-me .img {
+  max-height: 150px;
+  margin-top: -50px; 
+}
+#new-me .card:hover {
+  background: #3192a6;
+  color: #fff; 
+}
+#new-me .fab {
+  color: #fff;
+}
+
+.card {
+    margin-top: 2rem;
+    border: 2px solid  #01abc5;
+    border-radius: 1.5rem;
+}
+
+.card-body {
+    background-color: #6a6969;
+    color: #fff;
+}
+
 #development {
-  background-image: url(/img/chris-ried-512801-unsplash.jpg);
+  /* background-image: url(/img/chris-ried-512801-unsplash.jpg); */
+  background-image: url(https://images.unsplash.com/photo-1515879218367-8466d910aaa4);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,7 +49,8 @@
 }
 
 #engineering {
-  background-image: url(/img/victor-aznabaev-680684-unsplash.jpg);
+  /* background-image: url(/img/victor-aznabaev-680684-unsplash.jpg); */
+  background-image: url(https://images.unsplash.com/photo-1527356900876-cae61d8d8462);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
