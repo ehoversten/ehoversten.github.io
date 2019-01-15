@@ -8,7 +8,9 @@
 }
 
 #photo .img {
+    min-height: 200px;
     border: 2px solid  #01abc5 !important;
+    margin-bottom: 20px !important;
 }
 
 #about {
