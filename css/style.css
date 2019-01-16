@@ -45,6 +45,7 @@
     vertical-align: middle;
 }
 
+
 #development {
   /* background-image: url(/img/chris-ried-512801-unsplash.jpg); */
   background-image: url(https://images.unsplash.com/photo-1515879218367-8466d910aaa4);
@@ -71,3 +72,35 @@
   bottom: 0;
   width: 100%;
 } */
+
+
+@media (max-width: 767px) {
+
+  #photo .img {
+    min-height: 120px;
+    border: 2px solid  #01abc5 !important;
+    margin-bottom: 20px !important;
+  }
+
+
+  #development {
+    /* background-image: url(/img/chris-ried-512801-unsplash.jpg); */
+    background-image: url(https://images.unsplash.com/photo-1515879218367-8466d910aaa4);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+    margin-bottom: 0px;
+  }
+
+  #engineering {
+    /* background-image: url(/img/victor-aznabaev-680684-unsplash.jpg); */
+    background-image: url(https://images.unsplash.com/photo-1527356900876-cae61d8d8462);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+    margin-bottom: 0px;
+  }
+
+}
