@@ -85,7 +85,9 @@
   opacity: 0.85;
 }
 
-
+#skills-icons {
+  margin: 0.5rem 0;
+}
 
 /* #footer {
   position: fixed;
