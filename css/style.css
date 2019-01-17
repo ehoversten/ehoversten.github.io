@@ -3,9 +3,13 @@
 }
 
 #whoami-index {
-    /* background-color: rgb(41, 138, 145); */
     margin-top: 4rem;
     background: #01abc5;
+}
+
+#whoami-proj {
+    background: #01abc5;
+    margin-bottom: 2rem;
 }
 
 #photo .img {
@@ -45,10 +49,13 @@
   vertical-align: middle;
 }
 
-/* h3 {
-  padding: 50% 0;
-} */
+a.nav-link:hover {
+  background-color: #01abc5;
+}
 
+a:hover {
+  color: #01abc5;
+}
 
 #development {
   transition:all 0.25s ease;   /* Transition settings           */
@@ -126,8 +133,4 @@
     margin-bottom: 0px;
   }
 
-}
-
-#overlay {
-  transition:all 0.25s ease;   /* Transition settings           */
 }
