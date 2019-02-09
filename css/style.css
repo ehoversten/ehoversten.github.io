@@ -71,7 +71,7 @@ a:hover {
   background-size: cover;
   min-height: 500px;
   margin-bottom: 0px;
-  /* filter: blur(2px); */
+  filter: blur(2px);
 }
 
 #development:hover {
@@ -94,6 +94,11 @@ a:hover {
 
 #engineering:hover {
   opacity: 0.85;
+}
+
+.skills {
+  /* background: #6a6969; */
+  background: #01abc5;
 }
 
 #skills-icons {
