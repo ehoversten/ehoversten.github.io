@@ -71,11 +71,15 @@ a:hover {
   background-size: cover;
   min-height: 500px;
   margin-bottom: 0px;
-  filter: blur(2px);
+  /* filter: blur(2px); */
+}
+
+#development h3 {
+  margin-top: 30px;
 }
 
 #development:hover {
-  opacity: 0.85;
+  opacity: 0.80;
   /* -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
   /* filter: blur(3px);  */
 }
@@ -93,7 +97,11 @@ a:hover {
 }
 
 #engineering:hover {
-  opacity: 0.85;
+  opacity: 0.80;
+}
+
+#engineering h3 {
+  margin-top: 30px;
 }
 
 .skills {
