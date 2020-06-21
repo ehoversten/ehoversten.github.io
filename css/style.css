@@ -13,7 +13,8 @@
 }
 
 .red {
-  color: #dd1a1a;
+  /* color: #dd1a1a; */
+  color: #f8f525;
 }
 
 #photo .img {
@@ -82,6 +83,10 @@ a:hover {
   opacity: 0.80;
   /* -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
   /* filter: blur(3px);  */
+}
+
+.bold {
+  font-weight: bold;
 }
 
 #engineering {
